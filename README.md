@@ -37,3 +37,7 @@ Using Selenium to collect together all of the cookies, I then stored them in a d
 The neat thing about doing the downloading step with a totally different driver/agent is that it allows for parallel processing - the single Selenium instance darts around gathering cookies and logging Session IDs, while multiple seperate instances of the Requests session are downloading simultaneously in the background.
 
 However, some of these lecture series comprise 20-30 hours of footage, and I was concerned that running 30 seperate 1GB downloads within a few milliseconds of each other might be an unfair strain on the Panopto servers, so the script as it is now waits for each download to finish before embarking on a new one. Still a cool proof-of-concept though.
+
+NB
+----
+The materials obtained in this manner should be purely used for personal use and not for distribution, depending on the End User License Agreement you have signed. The End User License Agreement I signed, for example, forbids distribution but specifically states that it *is* permissible to download a copy of a lecture video for purposes of private study and/or non-commercial research.
