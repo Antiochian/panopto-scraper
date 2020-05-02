@@ -13,7 +13,7 @@ Example Usage
 Replace the data in SECRET.py with your own user info.
 Set the "path" variable in line 38 to where you want to files to be saved to.
 
-Run `python panopto_scraper.py`
+Run `python scraper.py`
 
 How It Works
 -----
