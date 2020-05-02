@@ -2,7 +2,7 @@
 
 Given a panopto folder URL, this script is able to automatically navigate through the various authentification checks and cookie requirements of Panopto, and dig through the source code in order to extract the raw .mp4 files of a whole folder of lecture videos. These mp4 files are then saved to disk in a specified folder.
 
-![Demo](demo.PNG)
+![Demo](scraper.gif)
 
 The script is somewhat specialised to my situation, due to the unusual Panopto set up my university has. Bizarrely, there is no way to actually log on to Panopto directly in my institution, you instead have to follow a special link which refers you to a custom login portal. This script uses said link and login portal to navigate the first authentification step, so I doubt it will be useful for anyone not at my university.
 
@@ -13,7 +13,7 @@ Example Usage
 Replace the data in SECRET.py with your own user info.
 Set the "path" variable in line 38 to where you want to files to be saved to.
 
-```python panopto_scraper.py```
+Run `python panopto_scraper.py`
 
 How It Works
 -----
